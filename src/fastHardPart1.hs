@@ -7,5 +7,8 @@ main = do
 	putStrLn "Where do you live?"
 	city <- getLine
 	putStrLn $ "Hey, I love " ++ city ++ "!"
+        
+
+
 
 	
