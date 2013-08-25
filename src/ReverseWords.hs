@@ -13,6 +13,7 @@ boilerPlate = ["Case #" ++ show n ++ ": " | n <- [1..]]
 standardOutput :: [String] -> [String]
 standardOutput = zipWith (++) boilerPlate
 
+
 main = do
   (f:_) <- getArgs
   file <- readFile f
